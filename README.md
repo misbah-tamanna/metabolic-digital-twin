@@ -31,3 +31,12 @@ Real-world data contains tracking gaps. In this dataset, there were significant 
 1. Clone the repository:
    ```bash
    git clone [https://github.com/misbah-tamanna/metabolic-digital-twin.git](https://github.com/misbah-tamanna/metabolic-digital-twin.git)
+2. Install backend dependencies and run the FastAPI server:
+   ```bash
+   pip install -r requirements.txt
+   uvicorn main:app --reload
+4. In a new terminal, install frontend dependencies and run Vite:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
