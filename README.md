@@ -4,6 +4,15 @@ A full-stack web application that acts as a thermodynamic digital twin, analyzin
 
 **Live Demo:** https://metabolic-digital-twin-six.vercel.app/
 
+<img width="2228" height="1352" alt="image" src="https://github.com/user-attachments/assets/b0980132-1cb7-4ecf-81a7-bb6203a01c01" />
+
+<img width="2234" height="1502" alt="image" src="https://github.com/user-attachments/assets/fe9407e0-beb3-4c82-b951-958e24d8b3c2" />
+
+
+
+## 🏆 The Story & Real-World Application
+This engine was applied to my own 8-month, 25kg weight loss journey. By processing 240+ days of my personal daily weigh-ins and calorie logs, the model successfully tracked my metabolic adaptation in real-time, mapping a clear, physiological drop in maintenance calories as my body mass decreased.
+
 ## 🏗️ Tech Stack
 *   **Frontend:** React, Vite, Recharts (Hosted on Vercel)
 *   **Backend:** Python, FastAPI, SQLite (Hosted on Render)
