@@ -10,7 +10,7 @@ function App() {
   const currentWeight = 75.0 
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/logs')
+    fetch('https://metabolic-api-y6mw.onrender.com/api/logs')
       .then(res => res.json())
       .then(jsonData => setData(jsonData))
       
@@ -18,7 +18,7 @@ function App() {
   }, [])
 
   const fetchPrediction = (calories) => {
-    fetch(`http://127.0.0.1:8000/api/predict?target_calories=${calories}&current_weight=${currentWeight}`)
+    fetch(`https://metabolic-api-y6mw.onrender.com/api/predict?target_calories=${calories}&current_weight=${currentWeight}`)
       .then(res => res.json())
       .then(jsonData => {
           setPredictionData(jsonData.predictions)
